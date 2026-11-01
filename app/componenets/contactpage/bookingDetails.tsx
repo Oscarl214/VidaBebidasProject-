@@ -30,11 +30,11 @@ const BookingDetails = () => {
             <li className="p-2 border-b border-gray-200">
               <span className="font-semibold text-lg text-yellow-600">
                 {' '}
-                Host responsibility & Bartender provisions:
+                Dry Hire:
               </span>{' '}
-              HOST PROVIDES LIQUOR IN ALL PACKAGES. 
+              The host provides all alcohol for every package.
 <li className='mt-2'>
-$75.00 FOR EXTRA HOUR(S)
+5 hour minimum. $75.00 per additional hour.
 </li>
             </li>
             <li className="p-2 border-b border-gray-600 flex-col">

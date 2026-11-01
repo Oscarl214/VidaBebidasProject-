@@ -44,7 +44,7 @@ const ImportantInfo = () => {
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-[#FFD700]">●</span>
-                <span>Service: 5 hrs</span>
+                <span>Service: 5 hour minimum</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-[#FFD700]">●</span>
@@ -62,10 +62,8 @@ const ImportantInfo = () => {
 
           <ul className="font-sans list-disc list-inside">
             <li className="p-1 marker:text-[#FFD700]">
-              <a className="font-bold">
-                Host responsibility & Bartender provisions:
-              </a>{' '}
-              HOST PROVIDES LIQUOR IN ALL PACKAGES. 
+              <a className="font-bold">Dry Hire:</a> The host provides all alcohol
+              for every package. 
             </li>
             <li className="p-1 marker:text-[#FFD700] border-b border-gray-600 flex-col">
            
@@ -89,7 +87,8 @@ const ImportantInfo = () => {
               $1.00 per additional guest.
             </li>
             <li className="p-1 marker:text-[#FFD700]">
-              <a className="font-bold">All packages:</a> $75.00 FOR EXTRA HOUR(S)
+              <a className="font-bold">All packages:</a> 5 hour minimum. $75.00
+              per additional hour.
             </li>
           </ul>
         </CardBody>

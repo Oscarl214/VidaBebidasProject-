@@ -84,10 +84,10 @@ const WaiverForm = () => {
               <ul className="text-white space-y-4 text-base">
                 <li className="p-2 border-b border-gray-600">
                   <span className="font-semibold text-lg text-yellow-600">
-                    Host responsibility & Bartender provisions:
+                    Dry Hire:
                   </span>{' '}
-                  HOST PROVIDES LIQUOR IN ALL PACKAGES.
-                  <div className="mt-2">$75.00 FOR EXTRA HOUR(S)</div>
+                  The host provides all alcohol for every package.
+                  <div className="mt-2">5 hour minimum. $75.00 per additional hour.</div>
                 </li>
                 <li className="p-2 border-b border-gray-600 flex-col">
                   <span className="font-semibold text-lg text-yellow-600">

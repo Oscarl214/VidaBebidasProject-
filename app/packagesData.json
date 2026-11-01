@@ -3,31 +3,35 @@
     "id": 1,
     "name": "Blanco Package",
     "image": "https://mikessite.s3.us-east-2.amazonaws.com/SilverPic.webp",
-    "price": "500",
-    "time": "5 Hours",
+    "price": "400",
+    "priceLabel": "Base Service Fee",
+    "time": "5 hour minimum",
     "bestFor": "House Parties, Small Holiday Events, Quinceañeras",
-    "tagline": "The Blanco Package is a more straightforward option, perfect for simple events that just need a professional bartender. This package focuses on efficient, friendly service without the customization, making it ideal for hosts who already know the vibe that they want and simply need a bartender to execute.",
+    "tagline": "A straightforward bar for beer, wine, and simple two-ingredient mixed drinks. Bar materials are always included. Ice, bar setup, and disposables can be added for the event.",
     "guestCapacity": "Up to 75 Guests",
-    "extraGuestFee": "$1.00 per extra guest",
-    "extraTimeFee": "$75.00 per hour",
-    "descriptions": [
-      "Service Breakdown:",
-      "On-Site Bartending",
-      "Guest Services, Drink Preparation, and Bar Flow Management",
-      "",
-      "Event Preparation & Breakdown:",
-      "Pre-event Coordination",
-      "Arrival prior to service time for set-up",
-      "Post-event Breakdown and cleanup",
-      "",
-      "Bar Operations and Responsibility:",
-      "Alcohol handling and service oversight",
-      "Monitoring service pace and guest experience",
-      "Maintaining a clean and organized bar",
-      "",
-      "Supplies Provided:",
-      "Ice",
-      "Basic Bar Setup and Equipment"
+    "extraGuestFee": "$1.00 per additional guest",
+    "extraTimeFee": "$75.00 per additional hour",
+    "coreOffer": "Beer, wine, and two-ingredient mixed drinks",
+    "examples": "Tequila & Soda, Vodka & Cranberry",
+    "included": [
+      "Bar materials"
+    ],
+    "addOns": [
+      {
+        "name": "Ice",
+        "price": "$50.00",
+        "note": "Scales with guest count"
+      },
+      {
+        "name": "Bar Setup",
+        "price": "$100.00",
+        "note": ""
+      },
+      {
+        "name": "Cups, Straws, Napkins",
+        "price": "$100.00",
+        "note": "Scales with guest count"
+      }
     ]
   },
   {
@@ -35,71 +39,55 @@
     "name": "Reposado Package",
     "image": "https://mikessite.s3.us-east-2.amazonaws.com/ReposadoPic.webp",
     "price": "700",
-    "time": "5 Hours",
+    "priceLabel": "Price of Package",
+    "time": "5 hour minimum",
     "bestFor": "Engagements, Showers, Graduations, Themed Parties, Mid-sized Events",
-    "tagline": "The Reposado Package offers a more detailed and elevated bar experience. Often referred to as our set-menu package, this option includes collaboration between the host and bartender to craft a curated drink menu tailored to the event. It strikes the balance between simplicity and customization.",
+    "tagline": "Everything in the Blanco Package is included, then built out with a cocktail hour, house margaritas all night, and a late-night Shot o' Clock.",
     "guestCapacity": "Up to 75 Guests",
-    "extraGuestFee": "$1.00 per extra guest",
-    "extraTimeFee": "$75.00 per hour",
-    "descriptions": [
-      "Service Breakdown:",
-      "On-Site Bartending",
-      "Guest Services, Drink Preparation, and Bar Flow Management",
-      "",
-      "Event Preparation & Breakdown:",
-      "Pre-event Coordination",
-      "Arrival prior to service time for set-up",
-      "Post-event Breakdown and cleanup",
-      "",
-      "Bar Operations and Responsibility:",
-      "Alcohol handling and service oversight",
-      "Monitoring service pace and guest experience",
-      "Maintaining a clean and organized bar",
-      "",
-      "Supplies Provided:",
+    "extraGuestFee": "$1.00 per additional guest",
+    "extraTimeFee": "$75.00 per additional hour",
+    "coreOffer": "Everything in the Blanco Package, with cocktail service included",
+    "examples": "",
+    "included": [
+      "Beer, wine, and two-ingredient mixed drinks",
+      "Bar materials",
       "Ice",
-      "Basic Bar Setup and Equipment",
-      "Limes / Lime Juice",
-      "Simple Syrup / Agave",
-      "Disposable Cups / Straws / Napkins",
-      "Custom Cocktail Menu for 2 Cocktails, 1 Highball, and 1 Shot"
-    ]
+      "Bar setup",
+      "Cups, straws, and napkins",
+      "Cocktail Hour — first hour included; additional cocktail hours + $75.00",
+      "Margarita on the rocks all night, served with two-ingredient mixed drinks",
+      "Shot o' Clock (late night)",
+      "Garnishes for cocktails"
+    ],
+    "addOns": []
   },
   {
     "id": 3,
     "name": "Anejo Package",
     "image": "https://mikessite.s3.us-east-2.amazonaws.com/AnejoPic.webp",
     "price": "900",
-    "time": "5 Hours",
+    "priceLabel": "Price of Package",
+    "time": "5 hour minimum",
     "bestFor": "Weddings, Large Events, Corporate Happy Hours, Luxury Celebrations",
-    "tagline": "The Anejo Package is our full open bar experience. With this package guests can choose from a wide selection of drinks provided at the bar, creating a seamless and premium experience from start to finish. This is the most inclusive and elevated option we offer.",
+    "tagline": "Everything in the Reposado Package, served as a full open bar from start to finish with a custom menu curated to your event.",
     "guestCapacity": "Up to 75 Guests",
-    "extraGuestFee": "$1.00 per extra guest",
-    "extraTimeFee": "$75.00 per hour",
-    "descriptions": [
-      "Service Breakdown:",
-      "On-Site Bartending",
-      "Guest Services, Drink Preparation, and Bar Flow Management",
-      "",
-      "Event Preparation & Breakdown:",
-      "Pre-event Coordination",
-      "Arrival prior to service time for set-up",
-      "Post-event Breakdown and cleanup",
-      "",
-      "Bar Operations and Responsibility:",
-      "Alcohol handling and service oversight",
-      "Monitoring service pace and guest experience",
-      "Maintaining a clean and organized bar",
-      "",
-      "Supplies Provided:",
-      "Ice",
-      "Basic Bar Setup and Equipment",
-      "Limes / Lime Juice",
-      "Preferred Garnishes for drinks",
-      "Simple Syrup / Agave",
-      "Disposable Cups / Straws / Napkins",
-      "Custom Cocktail Menu for 3 Cocktails, 2 Highballs, and 2 Shots",
-      "Mixers for Cocktails / Drinks"
+    "extraGuestFee": "$1.00 per additional guest",
+    "extraTimeFee": "$75.00 per additional hour",
+    "coreOffer": "Full-service open bar from start to finish, with a custom bar menu curated to your event",
+    "examples": "",
+    "included": [
+      "Everything in the Reposado Package",
+      "Beer, wine, cocktails, and two-ingredient mixed drinks",
+      "Bar materials, ice, bar setup, cups, straws, and napkins",
+      "Cocktail hour, house margarita, Shot o' Clock, and cocktail garnishes",
+      "Two additional hours provided if needed"
+    ],
+    "addOns": [
+      {
+        "name": "Mixers & Juices",
+        "price": "Custom",
+        "note": "Tailored to guest count and the cocktail menu"
+      }
     ]
   }
 ]

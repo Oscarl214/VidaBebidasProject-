@@ -237,14 +237,14 @@ const ClientBooking={
                   checked={serviceType=== 'Blanco Package'}
                   onChange={(e) => {
                     setserviceType(e.target.value);
-                    posthog?.capture('Package Selected', { package: e.target.value, price: 500 });
+                    posthog?.capture('Package Selected', { package: e.target.value, price: 400 });
                   }}
                 />
                 <label htmlFor="Blanco Package" className="text-base flex flex-wrap items-center gap-1">
                   <span className="font-bold">Blanco Package</span>
-                  <span className="text-green-600 font-bold">$500</span>
+                  <span className="text-green-600 font-bold">$400 base</span>
                   <span className="text-gray-500">|</span>
-                  <span className="text-orange-500 font-semibold">5 hours</span>
+                  <span className="text-orange-500 font-semibold">5 hour minimum</span>
                 </label>
               </li>
               <li className="flex items-center gap-2">
@@ -264,7 +264,7 @@ const ClientBooking={
                   <span className="font-bold">Reposado Package</span>
                   <span className="text-green-600 font-bold">$700</span>
                   <span className="text-gray-500">|</span>
-                  <span className="text-orange-500 font-semibold">5 hours</span>
+                  <span className="text-orange-500 font-semibold">5 hour minimum</span>
                 </label>
               </li>
               <li className="flex items-center gap-2">
@@ -284,10 +284,13 @@ const ClientBooking={
                   <span className="font-bold">Añejo Package</span>
                   <span className="text-green-600 font-bold">$900</span>
                   <span className="text-gray-500">|</span>
-                  <span className="text-orange-500 font-semibold">5 hours</span>
+                  <span className="text-orange-500 font-semibold">5 hour minimum</span>
                 </label>
               </li>
             </ul>
+            <p className="text-xs text-gray-500 mt-1">
+              Blanco add-ons (ice, bar setup, cups) are quoted separately. Reposado and Añejo include those supplies. Every package is dry hire: the host provides the alcohol. Up to 75 guests included, then $1 per additional guest.
+            </p>
           </label>
 
           <div className="flex flex-col justify-center items-center text-black bg-white border border-yellow-500 rounded-lg p-6 shadow-md overflow-auto">
